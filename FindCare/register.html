@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Main Container-->
+    <div class="main-container">
+        <header>
+            <nav class="navbar flex flex-ai-c">
+                <h1 class="flex flex-ai-c flex-jc-c">findCare</h1>
+                <ul class="navlinks flex flex-ai-c">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">Find Doctor</a></li>
+                    <li class="appointment"><a href="#">Book Appointment</a></li>
+                </ul>
+                <ul class="hamburger flex">
+                    <li class="lines"></li>
+                    <li class="lines"></li>
+                    <li class="lines"></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--form-->
+
+        <div class="form-wrapper flex flex-jc-c flex-ai-c">
+            
+        <!--form 1-->
+            <div class="form form-one flex">
+                <div class="form-img">
+                    <img src="./assets/images/undraw_doctor_kw5l.png" alt="doctor-image"> 
+                </div>
+                <div class="form-content">
+                    <form>
+                        <label>
+                            Patient Register
+                        </label>
+                            <input type="text" placeholder="Patient's Name" name="name">
+                            <input type="text" placeholder="Mobile Number" name="number">
+                            <input type="submit" name="Proceed">
+                    </form>
+                </div>
+            </div>
+
+            <!--form 2-->
+            <div class="form form-two flex">
+                <div class="form-img">
+                    <img src="./assets/images/undraw_doctors_hwty.png" alt="doctor-image"> 
+                </div>
+                <div class="form-content">
+                    <form>
+                        <input type="date">
+                        <input type="time">
+                        <input type="submit" name="Proceed">
+                    </form>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
